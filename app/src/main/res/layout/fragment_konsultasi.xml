@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/primaryBackgroundColor"
+    tools:context=".KonselingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
+
+    <TextView
+        android:id="@+id/konselingTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/konseling_title"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/konselingDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/konseling_description"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintTop_toBottomOf="@+id/konselingTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/konselingDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/contactNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_number"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/primaryTextColor"
+        android:drawableStart="@drawable/ic_whatsapp"
+        android:linksClickable="true"
+        app:layout_constraintTop_toBottomOf="@+id/contactName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/contactName2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name2"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/contactNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/contactNumber2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_number2"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/primaryTextColor"
+        android:drawableStart="@drawable/ic_whatsapp"
+        android:linksClickable="true"
+        app:layout_constraintTop_toBottomOf="@+id/contactName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/lansia_smart_logo_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/appVersion"/>
+
+    <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/primaryTextColor"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

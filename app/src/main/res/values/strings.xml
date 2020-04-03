@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lansia Smart</string>supportedBy
+    <string name="supportedBy">Supported By</string>
+
+    <string name="title_screening">Skrining</string>
+    <string name="title_edukasi">Edukasi</string>
+    <string name="title_konseling">Konseling</string>
+
+    <string name="screening_title">Skrining Kesehatan</string>
+    <string name="screening_description">Skrining kesehatan untuk meningkatkan manajamen diri osteoarthritis</string>
+    <string name="screening_card1_title">Perhitungan Kebutuhan Kalori</string>
+    <string name="screening_card2_title">Nilai Aktivitas Fisik</string>
+    <string name="screening_card3_title">Perhitungan Skala Nyeri</string>
+    <string name="screening_card1_body">Lorem Ipsum</string>
+    <string name="screening_card2_body">Lorem Ipsum Lorem Ipsum</string>
+    <string name="screening_card3_body">Lorem Ipsum Lorem Ipsum Lorem Ipsum</string>
+    <string name="screening_cards_content_description">Card Icon</string>
+    <string name="screening_no_user_title">Pasien Tidak Terdaftar</string>
+    <string name="screening_no_user_dialog">Harap daftarkan data diri pasien sebelum melakukan screening</string>
+    <string name="confirm">Mengerti</string>
+
+    <string name="name_input_edit_text_hint">Nama Pasien</string>
+    <string name="age_input_edit_text_hint">Umur</string>
+    <string name="gender_input_edit_text">Jenis Kelamin</string>
+    <string name="gender_input_edit_text_male">Laki-Laki</string>
+    <string name="gender_input_edit_text_female">Perempuan</string>
+    <string name="user_data_submit">Submit</string>
+
+    <string name="weightHint">Berat Badan (kg)</string>
+    <string name="heightHint">Tinggi Badan (cm)</string>
+    <string name="imt">IMT</string>
+    <string name="bbi">BBI</string>
+    <string name="bmr">BMR</string>
+    <string name="akg">AKG</string>
+    <string name="imtDesc">&#8230;</string>
+    <string name="bbiDesc">&#8230;</string>
+    <string name="bmrDesc">&#8230;</string>
+    <string name="akgDesc">&#8230;</string>
+
+    <string name="categoryTitle">Kategori</string>
+    <string name="categoryDesc">Perbedaan</string>
+    <string name="categoryResultTitle">&#8230;</string>
+    <string name="categoryResultDesc">&#8230;</string>
+    <string name="categoryKurus">Kurus</string>
+    <string name="categoryKurusDesc">&lt; 18,5</string>
+    <string name="categoryNormal">Normal</string>
+    <string name="categoryNormalDesc">18,5 &#8211; 25</string>
+    <string name="categoryGemuk">Gemuk</string>
+    <string name="categoryGemukDesc">25 &#8211; 30</string>
+    <string name="categoryObesitas">Obesitas</string>
+    <string name="categoryObesitasDesc">&lt; 30</string>
+    <string name="normalWeight">Berat Badan Ideal</string>
+    <string name="kebutuhanKaloriButton">Hitung</string>
+
+    <string name="dayQuestionSwitch">Pagi</string>
+    <string name="dayQuestionTitle">Pertanyaan Pagi Hari</string>
+    <string name="dayQuestion">Seberapa aktif Anda melakukan aktifitas fisik pada hari ini (siang hari)?</string>
+    <string name="dayAnswer1">Lebih banyak duduk</string>
+    <string name="dayAnswer2">Duduk/berdiri/berjalan</string>
+    <string name="dayAnswer3">Lebih banyak berdiri/jalan</string>
+    <string name="dayAnswer4">Banyak bekerja</string>
+    <string name="nightQuestionSwitch">Malam</string>
+    <string name="nightQuestionTitle">Pertanyaan Malam Hari</string>
+    <string name="nightQuestion">Seberapa aktif Anda melakukan aktifitas fisik di waktu senggang/malam hari?</string>
+    <string name="nightAnswer1">Lebih banyak duduk</string>
+    <string name="nightAnswer2">Berjalan selama 30 menit</string>
+    <string name="nightAnswer3">Bersepeda > 30 menit</string>
+    <string name="nightAnswer4">Bersepeda > 60 menit</string>
+    <string name="aktifitasFisikButton">Submit</string>
+    <string name="aktifivitasKurangTitle">Aktivitas Kurang</string>
+    <string name="aktifivitasKurang">Aktivitas Bapak/Ibu dalam kategori kurang. Silahkan ke menu edukasi untuk belajar latihan fisik sederhana</string>
+    <string name="aktifivitasSedangTitle">Aktivitas Sedang</string>
+    <string name="aktifivitasSedang">Aktivitas Bapak/Ibu dalam kategori baik. Pertahankan aktivitas ini</string>
+    <string name="aktifivitasBanyakTitle">Aktivitas Banyak</string>
+    <string name="aktifivitasBanyak">Aktivitas Bapak/Ibu dalam kategori terlalu berat. Hal yang perlu diingat, sesuaikan aktivitas dengan usia dan kondisi tubuh Bapak/Ibu</string>
+
+    <string name="joint_pain_input_edit_text">Lokasi nyeri sendi</string>
+    <string name="joint_pain_scale_title">Skala Nyeri</string>
+    <string name="joint_pain_time_input_edit_text">Waktu nyeri sendi</string>
+    <string name="joint_pain_indicator_title">Indikator Nyeri</string>
+    <string name="joint_pain_indicator_no_pain">0\t  : Tidak Nyeri</string>
+    <string name="joint_pain_indicator_no_pain_result">Bapak/Ibu saat ini tidak merasakan nyeri. Pertahankan perilaku hidup sehat, agar tidak mengalami nyeri sendi</string>
+    <string name="joint_pain_indicator_mild">1&#8211;3 : Nyeri Ringan</string>
+    <string name="joint_pain_indicator_mild_result">
+        - Bapak/Ibu memiliki skala nyeri ringan\n
+        - Sebaiknya Bapak/Ibu hindari konsumsi obat penurun nyeri\n
+        - Oleskah bagian yang nyeri dengan gel penurun nyeri atau kompres dengan air hangat\n
+        - Lakukan latihan fisik secara teratur\n
+        - Menjaga berat badan agar tidak berlebih dan menjaga lingkungan aman untuk mencegah jatuh\n\n
+        (Kemenkes, 2016)
+    </string>
+    <string name="joint_pain_indicator_moderate">4&#8211;6 : Nyeri Sedang</string>
+    <string name="joint_pain_indicator_moderate_result">
+        -	Bapak/Ibu memiliki nyeri skala sedang\n
+        -	Bapak/Ibu dapat mengkonsumsi obat yang diresepkan oleh dokter\n
+        -	Bapak/Ibu dapat mengoleskan bagian yang nyeri dengan gel penurun nyeri atau kompres dengan air hangat\n
+        -	Lakukan latihan fisik secara teratur\n
+        -	Menjaga berat badan agar tidak berlebih dan menjaga lingkungan aman untuk mencegah jatuh\n\n
+        (Kemenkes, 2016)
+    </string>
+    <string name="joint_pain_indicator_severe">7&#8211;9 : Nyeri Berat</string>
+    <string name="joint_pain_indicator_severe_result">
+        -	Bapak/Ibu memiliki nyeri skala berat\n
+        -	Bapak/Ibu sebaiknya datang ke fasilitas kesehatan untuk konsultasi ke tenaga kesehatan agar tidak terjadi nyeri yang semakin berat\n\n
+        (Kemenkes, 2016)
+    </string>
+    <string name="joint_pain_indicator_very_severe">10\t  : Nyeri Sangat Berat</string>
+    <string name="joint_pain_indicator_very_severe_result">
+        -	Bapak/Ibu memiliki nyeri skala sangat berat\n
+        -	Segera menuju ke fasilitas kesehatan terdekat (puskesmas/klinik/rumah sakit)\n\n
+        (Kemenkes, 2016)
+    </string>
+
+    <string name="edukasi_title">Edukasi</string>
+    <string name="edukasi_description">Pesan informatif untuk meningkatkan manajamen diri osteoarthritis</string>
+    <string name="edukasi_makanan_title">Edukasi Makanan</string>
+    <string name="edukasi_makanan_description">Pesan informatif mengenai makanan sehat</string>
+    <string name="edukasi_aktifitas_fisik_title">Edukasi Aktifitas Fisik</string>
+    <string name="edukasi_aktifitas_fisik_description">Pesan informatif mengenai latihan peregangan sendi</string>
+
+    <string name="konseling_title">Konseling</string>
+    <string name="konseling_description">Komunikasi langsung dengan tenaga kesehatanmu. Konseling mengenai manajemen diri osteoarthritis</string>
+    <string name="contact_name">Rizkiyani Istifada</string>
+    <string name="contact_number">+6281377653188</string>
+    <string name="contact_name2">Ns. Ruskan Sinaga S. Kep</string>
+    <string name="contact_number2">+6281298274676</string>
+
+    <string name="next_page">Next Page</string>
+    <string name="previous_page">Previous Page</string>
+
+    <string name="relaksasi_nafas_dalam_link">https://www.youtube.com/embed/kImf11UdPF0</string>
+    <string name="relaksasi_peregangan_sendi_link">https://www.youtube.com/embed/OdOGSZZ0dLw</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

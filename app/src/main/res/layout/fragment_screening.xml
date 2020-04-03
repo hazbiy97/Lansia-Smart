@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBackgroundColor"
+    tools:context=".ScreeningFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/screeningTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/screening_title"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/screeningDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/screening_description"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintTop_toBottomOf="@+id/screeningTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/screeningDescription"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false"
+            android:tag="clickableCard"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card1Color">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageViewCard1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_calories_calculator"
+                    android:tint="@color/secondaryTextColor"
+                    android:contentDescription="@string/screening_cards_content_description"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/textCard1Title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/screening_card1_title"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewCard1"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textCard1Body"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/screening_card1_body"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:layout_marginStart="10dp"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textCard1Title"-->
+                    <!--app:layout_constraintStart_toEndOf="@+id/imageViewCard1" />-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card1"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false"
+            android:tag="clickableCard"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card2Color">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageViewCard2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_track"
+                    android:tint="@color/secondaryTextColor"
+                    android:contentDescription="@string/screening_cards_content_description"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/textCard2Title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/screening_card2_title"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewCard2"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textCard2Body"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/screening_card2_body"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:layout_marginStart="10dp"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textCard2Title"-->
+                    <!--app:layout_constraintStart_toEndOf="@+id/imageViewCard2" />-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card2"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card3Color">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageViewCard3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_arthritis"
+                    android:tint="@color/secondaryTextColor"
+                    android:contentDescription="@string/screening_cards_content_description"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/textCard3Title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/screening_card3_title"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewCard3"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textCard3Body"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/screening_card3_body"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:layout_marginStart="10dp"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@+id/textCard3Title"-->
+                    <!--app:layout_constraintStart_toEndOf="@+id/imageViewCard3" />-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textCardUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_person_outline_white_24dp"
+        android:layout_margin="5dp"
+        app:fabSize="mini"
+        app:borderWidth="0dp"
+        app:elevation="3dp"
+        android:backgroundTint="@color/primaryColor"
+        android:id="@+id/fab1"
+        app:layout_constraintEnd_toEndOf= "parent"
+        app:layout_constraintBottom_toBottomOf= "parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

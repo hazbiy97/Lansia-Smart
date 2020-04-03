@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_screening"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_screening" />
+
+    <item
+        android:id="@+id/navigation_edukasi"
+        android:icon="@drawable/ic_menu_book_24px"
+        android:title="@string/title_edukasi" />
+
+    <item
+        android:id="@+id/navigation_konseling"
+        android:icon="@drawable/ic_contact_phone_24px"
+        android:title="@string/title_konseling" />
+
+</menu>

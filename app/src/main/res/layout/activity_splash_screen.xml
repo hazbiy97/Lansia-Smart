@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ybmLayout"
+        android:src="@drawable/lansia_smart_logo_item"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ybmLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/supportedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/supportedBy"
+            android:textSize="20sp"
+            android:textColor="@color/primaryTextColor"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <ImageView
+            android:id="@+id/fikLogo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintWidth_percent="0.3"
+            app:layout_constraintTop_toBottomOf="@id/supportedBy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ybmLogo"
+            android:src="@drawable/fik_logo"
+            android:backgroundTint="@color/primaryBackgroundColor"/>
+        <ImageView
+            android:id="@+id/ybmLogo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/supportedBy"
+            app:layout_constraintStart_toEndOf="@id/fikLogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/logo_ybm"
+            android:backgroundTint="@color/primaryBackgroundColor"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
